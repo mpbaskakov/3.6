@@ -21,7 +21,7 @@ cow.weight = 750
 cow.milk_production = 10
 
 goat = Animal()
-goat.name = 'Dusyua'
+goat.name = 'Goat'
 goat.color = 'Grey'
 goat.milk_production = 5
 goat.hunger = 70
@@ -34,13 +34,14 @@ pig.hunger = 30
 pig.weight = 300
 
 duck = Animal()
+duck.name = 'Duck'
 duck.isabird = True
 duck.color = 'Grey'
 duck.weight = 15
 duck.hunger = 35
 
 chicken = Animal()
-chicken.name = 'Ryaba'
+chicken.name = 'Chicken'
 chicken.isabird = True
 chicken.color = 'Orange'
 chicken.eggs_production = 2
