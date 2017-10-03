@@ -26,19 +26,21 @@ class Pig(Animal):
     pass
 
 
-class Duck(Animal):
+class Bird(Animal):
     isabird = True
 
 
-class Chicken(Animal):
-    isabird = True
+class Duck(Bird):
+    pass
+
+
+class Chicken(Bird):
     def __init__(self, name, color, weight, hunger, eggs_produciton):
         super().__init__(name, color, weight, hunger)
         self.eggs_production = eggs_produciton
 
 
-class Goose(Animal):
-    isabird = True
+class Goose(Bird):
     def __init__(self, name, color,  isabird, weight, hunger):
         super().__init__(name, color, weight, hunger)
 
